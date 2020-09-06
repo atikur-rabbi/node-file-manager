@@ -9,6 +9,6 @@
     }],
     "routes": [{
         "src": "/.*",
-        "dest": "/tmp/"
+        "dest": "/lib/index.js"
     }]
 }
