@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [{
-        "src": "api/server.js",
+        "src": "lib/index.js",
         "use": "@now/node",
         "config": {
             "helpers": false
@@ -9,6 +9,6 @@
     }],
     "routes": [{
         "src": "/.*",
-        "dest": "/api/server.js"
+        "dest": "/lib/index.js"
     }]
 }
